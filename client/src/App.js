@@ -5,7 +5,7 @@ import Form from "./components/Form/Form";
 import useStyles from './styles'
 import { useDispatch } from "react-redux";
 import { getPosts } from './actions/posts';
-import logo from "../images/yaden.png"
+// import logo from "../images/yaden.png"
 const App = () => {
   const classes = useStyles();
   const dispatch =  useDispatch();
@@ -16,10 +16,10 @@ const App = () => {
   return (
     <Container maxidth="lg">
       <AppBar className={classes.appBar} position="static" color="inherit">
-        {/* <Typography className={classes.heading}  variant="h1" align="center">
+        <Typography className={classes.heading}  variant="h1" align="center">
           Yadden
-        </Typography > */}
-        <img src={logo} />
+        </Typography >
+        {/* <img src={logo} /> */}
       </AppBar>
       <Grow in>
         <Container>

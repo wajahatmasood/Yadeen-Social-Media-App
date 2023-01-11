@@ -17,7 +17,7 @@ app.use(cors());
 app.use('/posts', postRoutes)
 // mongo: wm12 wali mail
 const CONNECTION_URL =
-  "mongodb+srv://wajahat:wajahat@sheerghar.ckta7i2.mongodb.net/?retryWrites=true&w=majority";
+  "mongodb+srv://wajahat:wajahat@yadein.yw2lqph.mongodb.net/?retryWrites=true&w=majority";
 const PORT = process.env.PORT || 5000;
 mongoose
   .connect(CONNECTION_URL, {
